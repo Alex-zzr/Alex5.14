@@ -1,0 +1,39 @@
+---
+name: Feature Request
+about: Feature
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+name: Feature Request
+description: Suggest a new feature
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: input
+    id: name
+    attributes:
+      label: What is your name?
+      placeholder: ex. Sertha Taweewattana
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Type of request?
+      options:
+        - New Feature
+        - Improvement
+  - type: input
+    id: os
+    attributes:
+      label: What is the OS which you want to suggest?
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What are the details of your suggestion?
+      placeholder: Explain what you want

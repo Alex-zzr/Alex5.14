@@ -1,7 +1,7 @@
 name: newBugReport
 about: Describe this issue template's purpose here.
-title: ''
-labels: ''
+title: ""
+labels: ""
 assignees: Alex-zzr
 name: Bug Report 
 description: File a bug report 
